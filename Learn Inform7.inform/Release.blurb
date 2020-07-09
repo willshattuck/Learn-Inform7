@@ -22,7 +22,7 @@ placeholder [IFID] = "B10072BE-0437-4CD8-8346-F0388F96561B"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2020"
 placeholder [TITLE] = "Midsummer Day"
-placeholder [AUTHOR] = "Anonymous"
+placeholder [AUTHOR] = "Will Shattuck"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

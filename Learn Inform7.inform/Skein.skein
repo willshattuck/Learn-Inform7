@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0">
+<Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-0"/>
-  <item nodeId="node-0">
+  <activeNode nodeId="node-6"/>
+  <item nodeId="node-1">
     <command xml:space="preserve">Learn Inform7</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">Midsummer Day&#x000A;An Interactive Fiction by Will Shattuck&#x000A;Release 1 / Serial number 200709 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Gazebo&#x000A;A white canvas parasol raised up on stakes driven into the grass.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Gazebo&#x000A;A white canvas parasol raised up on stakes driven into the grass.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
