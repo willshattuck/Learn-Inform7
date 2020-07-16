@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-1"/>
+  <activeNode nodeId="node-27"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Learn Inform7</command>
-    <result xml:space="preserve">Midsummer Day&#x000A;An Interactive Fiction by Will Shattuck&#x000A;Release 1 / Serial number 200709 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Gazebo&#x000A;A white canvas parasol raised up on stakes driven into the grass. Under the parasol sits a man in the white picket chair.  On the small table in front of him is a glass of what appears to be iced tea.&#x000A;&#x000A;You can see a carpet bag (in which is a croquet mallet) and Mr Jones here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Midsummer Day&#x000A;An Interactive Fiction by Will Shattuck&#x000A;Release 1 / Serial number 200710 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Gazebo&#x000A;A white canvas parasol raised up on stakes driven into the grass. Under the parasol sits a man in the white picket chair.  On the small table in front of him is a glass of what appears to be iced tea.&#x000A;&#x000A;You can see a crate (in which are a croquet mallet and a blue hat) and Mr Jones here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Midsummer Day&#x000A;An Interactive Fiction by Will Shattuck&#x000A;Release 1 / Serial number 200709 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Gazebo&#x000A;A white canvas parasol raised up on stakes driven into the grass. Under the parasol sits a man in the white picket chair.  On the small table in front of him is a glass of what appears to be iced tea.&#x000A;&#x000A;You can see a carpet bag (in which is a croquet mallet) and Mr Jones here.&#x000A;&#x000A;&gt;</commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-5"/>
       <child nodeId="node-7"/>
       <child nodeId="node-8"/>
       <child nodeId="node-10"/>
+      <child nodeId="node-13"/>
+      <child nodeId="node-17"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -96,6 +98,135 @@
   <item nodeId="node-12">
     <command xml:space="preserve">open carpet bag</command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">l at mr jones</command>
+    <result xml:space="preserve">You see nothing special about Mr Jones.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">get hat</command>
+    <result xml:space="preserve">That seems to belong to Mr Jones.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">get crate</command>
+    <result xml:space="preserve">It's far too heavy to lift.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">get mallet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">get blue hat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(the blue hat)&#x000A;You put on the blue hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">get crate</command>
+    <result xml:space="preserve">As you stoop down, your hat falls into the crate.&#x000A;&#x000A;It's far too heavy to lift.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">l crate</command>
+    <result xml:space="preserve">In the crate are a blue hat and a croquet mallet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">get hat</command>
+    <result xml:space="preserve">Which do you mean, the blue hat or the top hat?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">blue</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">get crate</command>
+    <result xml:space="preserve">It's far too heavy to lift.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">wear hat</command>
+    <result xml:space="preserve">(the blue hat)&#x000A;You put on the blue hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">get crate</command>
+    <result xml:space="preserve">As you stoop down, your hat falls into the crate.&#x000A;&#x000A;It's far too heavy to lift.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">wear blue hat</command>
+    <result xml:space="preserve">(first taking the blue hat)&#x000A;You put on the blue hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">get crate</command>
+    <result xml:space="preserve">As you stoop down, your hat falls into the crate.&#x000A;&#x000A;It's far too heavy to lift.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
